@@ -444,6 +444,17 @@ a.accordion-toggle.collapsed:after {
 	color: red;
 }
 
+.footer .copyright span,
+.footer .copyright span a {
+	color: rgba(255,255,255,0.7);
+}
+
+.footer .copyright span a:hover,
+.footer .copyright span a:active,
+.footer .copyright span a:focus {
+	color: magenta;
+}
+
 /* HOME
 ============== */
 
