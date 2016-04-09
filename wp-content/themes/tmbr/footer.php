@@ -3,13 +3,13 @@
 <div class="container">
 	<div class="row">
 		<div class="span6">
-			<p>&copy; 2014, Champu Salon. All Rights Reserved.</p>
+      <p class="copyright"><?php echo sprintf( __( '%1$s %2$s %3$s.'), '&copy;', date('Y'), esc_html(get_bloginfo('name')) );  ?> All Rights Reserved. <span>Site by <a href="http://shespeaksincode.com" target="_blank">She Speaks in Code</a>.</span></p>
 		</div>
 		<div class="span6">
-			<p style="text-align: right;"><a href="tel://1-307-739-4646" class="tel">307.739.4646 </a> 
-			<a href="https://www.facebook.com/ChampuSalon" class="fb" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
-			<a href="http://www.pinterest.com/ChampuSalonJH/" class="pinterest" target="_blank"><i class="fa fa-fw fa-pinterest"></i></a>
-			<a href="https://plus.google.com/+ChampuSalonJackson/posts" class="google" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a></p>
+			<p style="text-align: right;"><a href="tel:+1<?php the_field('global_number','option'); ?>" class="tel"><?php the_field('global_number','option'); ?> </a>
+			<a href="<?php the_field('facebook_link','option'); ?>" class="fb" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+			<a href="<?php the_field('pinterest_link','option'); ?>" class="pinterest" target="_blank"><i class="fa fa-fw fa-pinterest"></i></a>
+			<a href="<?php the_field('google_link','option'); ?>" class="google" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a></p>
 		</div>
 	</div><!-- /row -->
 </div>
