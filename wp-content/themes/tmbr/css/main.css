@@ -459,15 +459,38 @@ a.accordion-toggle.collapsed:after {
 }
 
 /*  &HEADER STYLES
-================================================================================*/
+================================================================================ */
 
 a.accordion-toggle.collapsed {background: url(img/arrow-down.png) no-repeat center right;}
 a.accordion-toggle {background: url(img/arrow-up.png) no-repeat center right;}
 
 
+/* CALLOUT TEXT
+================================================================================ */
+.callout-text {
+	margin: 40px 0;
+}
 
+.callout-text .header {
+	text-align: center; font-size: 29px; margin-bottom: 0;
+}
 
+.callout-text .header a {
+	color: #333;
+}
 
+.callout-text .header a:hover {
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+}
+
+.staff-content .primary {
+	font-size: 28px;
+}
+
+.staff-content .padded {
+	/* padding: 0 45px; */
+}
 
 
 
