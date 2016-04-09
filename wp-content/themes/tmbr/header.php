@@ -4,17 +4,17 @@
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="google-site-verification" content="uXNoXDCjXSCwZXZFZcvOTHm1O66qZUFmyLVlepKdQ8k" />
-	<a href="https://plus.google.com/+MimiSalonJackson" rel="publisher" />
+
 	<title><?php wp_title(' | ', true, 'right'); ?></title>
 
 
 	<!-- >> FONTS -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Oswald:400,300,700' rel='stylesheet' type='text/css'>
-	
+
 	<!-- >> FAVICON -->
 	<link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/salon-favicon.ico">
-	
+
 	<!-- >> BOOTSTRAP -->
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/bootstrap/bootstrap.min.css">
 	<!-- >> FLEXSLIDER -->
