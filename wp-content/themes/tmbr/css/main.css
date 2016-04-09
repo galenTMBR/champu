@@ -337,6 +337,12 @@ ul.nav ul li a:hover {
 	color: #000;
 }
 
+.accordion h2 a:hover,
+.accordion h2 a:active,
+.accordion h2 a:focus {
+	text-decoration: none;
+}
+
 .accordion-group {
 	border-radius: 1px;
 	margin-bottom:10px;
@@ -346,6 +352,9 @@ ul.nav ul li a:hover {
 
 .accordion-inner {
 	padding: 20px;
+}
+.service-content .price {
+	color: #777;
 }
 /*
 span.plus {
