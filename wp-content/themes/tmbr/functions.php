@@ -46,7 +46,7 @@ add_action( 'init', 'register_my_menus' );
 
 // ADD TMBR LOGO TO LOGIN PAGE
 require_once('inc/theme/login-logo.php');
-
+get_template_part( 'inc/load-template' );
 
 //CUSTOM POST TYPE
 // require_once('inc/theme/custom-post-type.php');
