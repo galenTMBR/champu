@@ -2,6 +2,7 @@
 
   if( have_rows('page_content') ) :
 
+    $i = 1;
 
     while ( have_rows('page_content') ) : the_row();
 
@@ -12,11 +13,11 @@
 
       elseif( get_row_layout() == 'staff' ) { get_template_part( 'partials/pc/staff' ); }
 
-      elseif( get_row_layout() == 'services' ) { get_template_part( 'partials/pc/services' ); }
+      elseif( get_row_layout() == 'services_row' ) { get_template_part( 'partials/pc/services' ); }
 
       elseif( get_row_layout() == 'products' ) { get_template_part( 'partials/pc/products' ); }
 
-
+      $i++;
       endwhile;
 
 
