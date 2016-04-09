@@ -1,0 +1,1 @@
+<?php the_field('hc_google_map'); ?>
