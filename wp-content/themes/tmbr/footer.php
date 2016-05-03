@@ -30,7 +30,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="<?php bloginfo( 'template_url' ); ?>/bootstrap/bootstrap.min.js"></script>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
-<script src="/wp-content/themes/champu/js/flexslider/jquery.flexslider.js"></script>
+<script src="/wp-content/themes/tmbr/js/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript">
   $(window).load(function() {
     $('.flexslider').flexslider({

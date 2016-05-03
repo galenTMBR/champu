@@ -18,7 +18,7 @@
 	<!-- >> BOOTSTRAP -->
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/bootstrap/bootstrap.min.css">
 	<!-- >> FLEXSLIDER -->
-    <link rel="stylesheet" href="/wp-content/themes/champu/js/flexslider/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="/wp-content/themes/tmbr/js/flexslider/flexslider.css" type="text/css">
 
 	<!-- >> THEME STYLESHEET -->
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
