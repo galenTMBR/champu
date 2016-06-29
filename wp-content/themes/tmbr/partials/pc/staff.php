@@ -25,7 +25,7 @@ $owner_bio = get_sub_field('owner_bio');
               while(has_sub_field('s_staff')) {
                 ?>
                 <div class="row-fluid">
-                <div class="span7">
+                <div class="span12">
                   <div class="padded">
                   <h3><?php the_sub_field('ss_name'); ?></h3>
                   <?php the_sub_field('ss_bio'); ?>
