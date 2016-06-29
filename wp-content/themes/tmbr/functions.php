@@ -1,6 +1,6 @@
 <?php
 get_template_part( 'inc/helpers' );
-get_template_part( 'inc/auto-updates' );
+//get_template_part( 'inc/auto-updates' );
 
 add_action('after_setup_theme', 'tmbr_setup');
 
